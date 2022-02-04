@@ -11,7 +11,11 @@ import SwiftUI
 struct UjjayiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(ViewModel())
+                .onDisappear {
+                    UIApplication.shared.isIdleTimerDisabled = false
+                }
         }
     }
 }

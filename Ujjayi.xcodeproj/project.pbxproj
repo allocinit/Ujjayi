@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		4B10B3C727AD17BF0088D7E4 /* UjjayiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3C627AD17BF0088D7E4 /* UjjayiApp.swift */; };
-		4B10B3C927AD17BF0088D7E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3C827AD17BF0088D7E4 /* ContentView.swift */; };
 		4B10B3CB27AD17C00088D7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B10B3CA27AD17C00088D7E4 /* Assets.xcassets */; };
 		4B10B3CE27AD17C00088D7E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B10B3CD27AD17C00088D7E4 /* Preview Assets.xcassets */; };
+		4B10B3DE27AD17E20088D7E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3D427AD17E20088D7E4 /* Constants.swift */; };
+		4B10B3DF27AD17E20088D7E4 /* SaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3D527AD17E20088D7E4 /* SaveView.swift */; };
+		4B10B3E027AD17E20088D7E4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3D627AD17E20088D7E4 /* Helpers.swift */; };
+		4B10B3E127AD17E20088D7E4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3D727AD17E20088D7E4 /* MainView.swift */; };
+		4B10B3E227AD17E20088D7E4 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3D827AD17E20088D7E4 /* TimerView.swift */; };
+		4B10B3E327AD17E20088D7E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3D927AD17E20088D7E4 /* Model.swift */; };
+		4B10B3E427AD17E20088D7E4 /* OpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3DA27AD17E20088D7E4 /* OpenView.swift */; };
+		4B10B3E527AD17E20088D7E4 /* ParamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3DB27AD17E20088D7E4 /* ParamView.swift */; };
+		4B10B3E627AD17E20088D7E4 /* Metronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4B10B3DC27AD17E20088D7E4 /* Metronome.wav */; };
+		4B10B3E727AD17E20088D7E4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10B3DD27AD17E20088D7E4 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B10B3C327AD17BF0088D7E4 /* Ujjayi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ujjayi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B10B3C627AD17BF0088D7E4 /* UjjayiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UjjayiApp.swift; sourceTree = "<group>"; };
-		4B10B3C827AD17BF0088D7E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B10B3CA27AD17C00088D7E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B10B3CD27AD17C00088D7E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B10B3D427AD17E20088D7E4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B10B3D527AD17E20088D7E4 /* SaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveView.swift; sourceTree = "<group>"; };
+		4B10B3D627AD17E20088D7E4 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		4B10B3D727AD17E20088D7E4 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4B10B3D827AD17E20088D7E4 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		4B10B3D927AD17E20088D7E4 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4B10B3DA27AD17E20088D7E4 /* OpenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenView.swift; sourceTree = "<group>"; };
+		4B10B3DB27AD17E20088D7E4 /* ParamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamView.swift; sourceTree = "<group>"; };
+		4B10B3DC27AD17E20088D7E4 /* Metronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Metronome.wav; sourceTree = "<group>"; };
+		4B10B3DD27AD17E20088D7E4 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,16 @@
 			isa = PBXGroup;
 			children = (
 				4B10B3C627AD17BF0088D7E4 /* UjjayiApp.swift */,
-				4B10B3C827AD17BF0088D7E4 /* ContentView.swift */,
+				4B10B3D927AD17E20088D7E4 /* Model.swift */,
+				4B10B3DD27AD17E20088D7E4 /* ViewModel.swift */,
+				4B10B3D427AD17E20088D7E4 /* Constants.swift */,
+				4B10B3D627AD17E20088D7E4 /* Helpers.swift */,
+				4B10B3D727AD17E20088D7E4 /* MainView.swift */,
+				4B10B3DB27AD17E20088D7E4 /* ParamView.swift */,
+				4B10B3D827AD17E20088D7E4 /* TimerView.swift */,
+				4B10B3DA27AD17E20088D7E4 /* OpenView.swift */,
+				4B10B3D527AD17E20088D7E4 /* SaveView.swift */,
+				4B10B3DC27AD17E20088D7E4 /* Metronome.wav */,
 				4B10B3CA27AD17C00088D7E4 /* Assets.xcassets */,
 				4B10B3CC27AD17C00088D7E4 /* Preview Content */,
 			);
@@ -125,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B10B3E627AD17E20088D7E4 /* Metronome.wav in Resources */,
 				4B10B3CE27AD17C00088D7E4 /* Preview Assets.xcassets in Resources */,
 				4B10B3CB27AD17C00088D7E4 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +165,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B10B3C927AD17BF0088D7E4 /* ContentView.swift in Sources */,
+				4B10B3E727AD17E20088D7E4 /* ViewModel.swift in Sources */,
+				4B10B3E327AD17E20088D7E4 /* Model.swift in Sources */,
+				4B10B3E227AD17E20088D7E4 /* TimerView.swift in Sources */,
 				4B10B3C727AD17BF0088D7E4 /* UjjayiApp.swift in Sources */,
+				4B10B3E527AD17E20088D7E4 /* ParamView.swift in Sources */,
+				4B10B3DE27AD17E20088D7E4 /* Constants.swift in Sources */,
+				4B10B3DF27AD17E20088D7E4 /* SaveView.swift in Sources */,
+				4B10B3E127AD17E20088D7E4 /* MainView.swift in Sources */,
+				4B10B3E427AD17E20088D7E4 /* OpenView.swift in Sources */,
+				4B10B3E027AD17E20088D7E4 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
