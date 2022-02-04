@@ -92,10 +92,10 @@ class ViewModel: ObservableObject {
             let decoded = try? JSONDecoder().decode(Pranayama.self, from: saved) {
                 pranayama = decoded
         } else {
-            pranayama = Pranayama(inhale: 1,
-                                  innerHold: 1,
-                                  exhale: 1,
-                                  outerHold: 1,
+            pranayama = Pranayama(inhale: 4,
+                                  innerHold: 4,
+                                  exhale: 4,
+                                  outerHold: 4,
                                   cycles: 12)
         }
         
